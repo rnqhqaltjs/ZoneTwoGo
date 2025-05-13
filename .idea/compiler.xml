@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="JoneTwoGo.app" target="21" />
+      <module name="JoneTwoGo.buildlogic.convention" target="11" />
+      <module name="JoneTwoGo.buildlogic.convention.main" target="11" />
+      <module name="JoneTwoGo.buildlogic.convention.test" target="11" />
+      <module name="JoneTwoGo.core.data" target="21" />
+      <module name="JoneTwoGo.core.domain" target="11" />
+      <module name="JoneTwoGo.core.domain.main" target="11" />
+      <module name="JoneTwoGo.core.domain.test" target="11" />
+      <module name="JoneTwoGo.feature.login" target="21" />
+      <module name="JoneTwoGo.wearos" target="21" />
+      <module name="ZoneTwoGo.feature.login" target="21" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
