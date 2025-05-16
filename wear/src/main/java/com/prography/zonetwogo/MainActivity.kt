@@ -3,14 +3,15 @@
  * most up to date changes to the libraries and their usages.
  */
 
-package com.prography.zonetwogo.presentation
+package com.prography.zonetwogo
 
+import android.R
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import com.prography.zonetwogo.heartrate.HeartRateScreen
-import com.prography.zonetwogo.presentation.theme.ZoneTwoGoTheme
+import com.prography.zonetwogo.theme.ZoneTwoGoTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -18,7 +19,7 @@ class MainActivity : ComponentActivity() {
 
         super.onCreate(savedInstanceState)
 
-        setTheme(android.R.style.Theme_DeviceDefault)
+        setTheme(R.style.Theme_DeviceDefault)
 
         setContent {
             ZoneTwoGoTheme {

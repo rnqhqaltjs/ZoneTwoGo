@@ -26,12 +26,17 @@
             <option value="$PROJECT_DIR$/build-logic" />
             <option value="$PROJECT_DIR$/build-logic/convention" />
             <option value="$PROJECT_DIR$/core" />
-            <option value="$PROJECT_DIR$/core/data" />
+            <option value="$PROJECT_DIR$/core/common" />
+            <option value="$PROJECT_DIR$/core/data-mobile" />
+            <option value="$PROJECT_DIR$/core/data-wear" />
             <option value="$PROJECT_DIR$/core/domain" />
+            <option value="$PROJECT_DIR$/core/model" />
             <option value="$PROJECT_DIR$/feature-mobile" />
             <option value="$PROJECT_DIR$/feature-mobile/login" />
             <option value="$PROJECT_DIR$/feature-wear" />
             <option value="$PROJECT_DIR$/feature-wear/heartrate" />
+            <option value="$PROJECT_DIR$/infra-mobile" />
+            <option value="$PROJECT_DIR$/infra-wear" />
             <option value="$PROJECT_DIR$/wear" />
           </set>
         </option>
