@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.prography.zonetwogo.data.mobile"
+    namespace = "com.prography.zonetwobe.data.mobile"
     kotlinOptions {
         jvmTarget = "21"
     }

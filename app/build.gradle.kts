@@ -5,10 +5,10 @@ plugins {
 }
 
 android {
-    namespace = "com.prography.zonetwogo"
+    namespace = "com.prography.zonetwobe"
 
     defaultConfig {
-        applicationId = "com.prography.zonetwogo"
+        applicationId = "com.prography.zonetwobe"
         versionCode = 1
         versionName = "1.0"
 

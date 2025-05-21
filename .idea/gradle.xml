@@ -34,7 +34,7 @@
             <option value="$PROJECT_DIR$/feature-mobile" />
             <option value="$PROJECT_DIR$/feature-mobile/login" />
             <option value="$PROJECT_DIR$/feature-wear" />
-            <option value="$PROJECT_DIR$/feature-wear/heartrate" />
+            <option value="$PROJECT_DIR$/feature-wear/exercise" />
             <option value="$PROJECT_DIR$/infra-mobile" />
             <option value="$PROJECT_DIR$/infra-wear" />
             <option value="$PROJECT_DIR$/wear" />
