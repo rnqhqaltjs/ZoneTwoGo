@@ -4,11 +4,16 @@ plugins {
 }
 
 android {
-    namespace = "com.prography.zonetwogo.data.wear"
+    namespace = "com.prography.zonetwobe.data.wear"
     kotlinOptions {
         jvmTarget = "21"
     }
 }
 
 dependencies {
+    implementation(project(":core:domain"))
+    implementation(project(":core:model"))
+    implementation(libs.androidx.health.services.client)
+    implementation(libs.kotlinx.coroutines.core)
+    implementation(libs.guava)
 }

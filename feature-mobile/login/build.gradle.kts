@@ -6,7 +6,7 @@ plugins {
 }
 
 android {
-    namespace = "com.prography.zonetwogo.login"
+    namespace = "com.prography.zonetwobe.login"
     kotlinOptions {
         jvmTarget = "21"
     }

@@ -5,10 +5,10 @@ plugins {
 }
 
 android {
-    namespace = "com.prography.zonetwogo"
+    namespace = "com.prography.zonetwobe"
 
     defaultConfig {
-        applicationId = "com.prography.zonetwogo"
+        applicationId = "com.prography.zonetwobe"
         versionCode = 1
         versionName = "1.0"
 
@@ -23,7 +23,7 @@ dependencies {
     implementation(project(":core:domain"))
     implementation(project(":core:common"))
     implementation(project(":core:model"))
-    implementation(project(":feature-wear:heartrate"))
+    implementation(project(":feature-wear:exercise"))
 
     implementation(libs.play.services.wearable)
     implementation(libs.androidx.core.splashscreen)

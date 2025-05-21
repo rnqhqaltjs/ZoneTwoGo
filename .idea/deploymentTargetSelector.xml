@@ -15,20 +15,14 @@
       </SelectionState>
       <SelectionState runConfigName="wearos">
         <option name="selectionMode" value="DROPDOWN" />
-        <DropdownSelection timestamp="2025-05-14T10:35:24.578605900Z">
+        <DropdownSelection timestamp="2025-05-18T04:49:45.816627100Z">
           <Target type="DEFAULT_BOOT">
             <handle>
-              <DeviceId pluginId="PhysicalDevice" identifier="serial=R3CW403S6MW" />
+              <DeviceId pluginId="Default" identifier="serial=192.168.35.240:39127;connection=de66c100" />
             </handle>
           </Target>
         </DropdownSelection>
         <DialogSelection />
-      </SelectionState>
-      <SelectionState runConfigName="ZoneTwoGo.wearos">
-        <option name="selectionMode" value="DROPDOWN" />
-      </SelectionState>
-      <SelectionState runConfigName="ZoneTwoGo.app">
-        <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
     </selectionStates>
   </component>

@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.prography.zonetwogo.infra.wear"
+    namespace = "com.prography.zonetwobe.infra.wear"
     kotlinOptions {
         jvmTarget = "21"
     }
