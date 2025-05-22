@@ -12,11 +12,13 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.wear.compose.material.Button
 import androidx.wear.compose.material.Text
+import androidx.wear.tooling.preview.devices.WearDevices
 import com.prography.zonetwobe.model.ExerciseMetrics
 
 
@@ -32,6 +34,7 @@ fun ExerciseRoute(
         endExercise = viewModel::endExercise
     )
 }
+
 @Composable
 fun ExerciseScreen(
     exerciseMetrics: ExerciseMetrics?,
@@ -68,8 +71,17 @@ fun ExerciseScreen(
     }
 }
 
-//@Preview(device = WearDevices.SMALL_ROUND, showSystemUi = true)
-//@Composable
-//fun HeartRateScreenPreview() {
-//    HeartRateScreen()
-//}
+@Preview(device = WearDevices.SMALL_ROUND, showSystemUi = true)
+@Composable
+fun ExerciseScreenPreview() {
+    ExerciseScreen(
+        exerciseMetrics = ExerciseMetrics(
+            heartRate = 80,
+            calories = 100,
+            distance = 500,
+            steps = 1000
+        ),
+        startExercise = {},
+        endExercise = {}
+    )
+}

@@ -12,6 +12,7 @@
       <module name="JoneTwoGo.core.domain.test" target="11" />
       <module name="JoneTwoGo.feature.login" target="21" />
       <module name="JoneTwoGo.wearos" target="21" />
+      <module name="ZoneTwoGo.feature-wear.main" target="21" />
       <module name="ZoneTwoGo.feature.login" target="21" />
     </bytecodeTargetLevel>
   </component>

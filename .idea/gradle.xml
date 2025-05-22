@@ -29,10 +29,16 @@
             <option value="$PROJECT_DIR$/core/common" />
             <option value="$PROJECT_DIR$/core/data-mobile" />
             <option value="$PROJECT_DIR$/core/data-wear" />
+            <option value="$PROJECT_DIR$/core/designsystem-mobile" />
             <option value="$PROJECT_DIR$/core/domain" />
             <option value="$PROJECT_DIR$/core/model" />
+            <option value="$PROJECT_DIR$/core/navigation" />
             <option value="$PROJECT_DIR$/feature-mobile" />
+            <option value="$PROJECT_DIR$/feature-mobile/exercise" />
             <option value="$PROJECT_DIR$/feature-mobile/login" />
+            <option value="$PROJECT_DIR$/feature-mobile/main" />
+            <option value="$PROJECT_DIR$/feature-mobile/profile" />
+            <option value="$PROJECT_DIR$/feature-mobile/report" />
             <option value="$PROJECT_DIR$/feature-wear" />
             <option value="$PROJECT_DIR$/feature-wear/exercise" />
             <option value="$PROJECT_DIR$/infra-mobile" />
