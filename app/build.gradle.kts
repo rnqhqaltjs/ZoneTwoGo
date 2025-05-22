@@ -23,11 +23,9 @@ android {
 }
 
 dependencies {
-    implementation(project(":core:data-mobile"))
-    implementation(project(":core:domain"))
-    implementation(project(":core:common"))
-    implementation(project(":core:model"))
-    implementation(project(":feature-mobile:login"))
+    implementation(project(":core:designsystem-mobile"))
+    implementation(project(":feature-mobile:main"))
+
 
     implementation(libs.androidx.hilt.common)
     implementation(libs.v2.user)
